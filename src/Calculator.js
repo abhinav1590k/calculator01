@@ -28,8 +28,8 @@ const Calculator = () => {
         <div className="calculator">
             <h2>React Calculator</h2>
             <div className="screen">
-                <input type="text" readOnly value={input} placeholder="0" />
-                <input type="text" readOnly value={result} placeholder="Result" />
+                <input type="text" readOnly value={input} placeholder="0" className="input-field" />
+                <input type="text" readOnly value={result} placeholder="Result" className="result-field" />
             </div>
             <div className="button-row">
                 {['7', '8', '9', '/'].map((item) => (
